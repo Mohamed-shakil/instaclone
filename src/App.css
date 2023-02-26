@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+#container{
+  border: 10px solid lightblue;
+  padding: 30px;
+  display:flex;
+  flex-direction: row;
+  background-color: white;
+  width: 1000px;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+  
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#container2{
+  border: 5px solid gray;
+  padding: 30px;
+  display:flex;
+  flex-direction: row;
+  background-color: white;
+  width: 1000px;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+  
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#text{
   display: flex;
   flex-direction: column;
+  font:bold;
+  color: brown;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#text>button{
+  color: aqua;
+  border-radius: 20px;
+  background-color: brown;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boxcontainer{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 600px;
+  height: 700px;
+  margin: auto;
+}
+.boxcontainer img{
+  margin: auto;
+}
+#like {
+  float: left;
+}
+article{
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+}
+article div:first-child
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  color: blueviolet;
+  font:bold;
+  font-size: 20px;
+  padding: 0%;
+  
+}
+#name{
+  margin-bottom: 0px;
+}
+#location{
+  margin-top: 0px;
+}
+article div:last-child{
+  align-self: flex-end;
+  font-size: 50px;
+  color: brown;
+  margin-left: 450px;
+  margin-bottom: 50px;
+}
+#head{
+  display: flex;
+  flex-direction: row;
+}
+#camera{
+  margin-left: 1100px;
+  margin-top: 30px;
+}
+#headinsta{
+  margin-left: 30px;
+}
+#headinsta>h1{
+  display: inline;
+  color: #006238;
+  margin-top: 0px;
+}
+#headinsta>img{
+  display: inline;
 }
